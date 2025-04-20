@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    color: black;
+}
+
+.name {
+    display: flex;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.name img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text h1 {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.text h2 {
+
+    margin: 0px 5px 5px 5px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.803);
+}
+
+.section {
+    background-color: rgba(0, 0, 0, 0.803);
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.section h3{
+ 
+    margin-top: 0;
+}
+.section h4 {
+    margin-top: 0;
+}
+
+.skills-hobbies {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.803);
+}
+
+.skills .myskills {
+    background-color: rgba(0, 0, 0, 0.803);
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.hobbies ul {
+    padding-left: 18px;
+}
+
+.btn {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.803);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+.icon {
+    width: 14px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
